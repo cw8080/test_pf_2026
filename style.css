@@ -1,0 +1,66 @@
+/* 基本的なリセットとコンテナの設定 */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* 1. グリッドコンテナの設定 */
+.image-grid {
+    display: grid;
+    /* ギャップ（間隔） */
+    gap: 15px; 
+    /* デフォルト（PCサイズ）: 1列あたり4つのタイル */
+    grid-template-columns: repeat(4, 1fr); 
+    max-width: 1200px; /* 最大幅を設定 */
+    margin: 0 auto; /* 中央寄せ */
+}
+
+/* 2. グリッドアイテム（リンク）の設定 */
+.grid-item {
+    display: block; /* リンク全体をクリック可能にする */
+    overflow: hidden; /* はみ出しを隠す */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ホバーエフェクト */
+.grid-item:hover {
+    transform: translateY(-5px); /* 少し上に移動 */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 3. 画像の設定 */
+.grid-item img {
+    /* 親要素（リンク）の幅いっぱいに広げる */
+    width: 100%; 
+    /* 縦横比を維持して、親要素をすべて覆うように調整 */
+    height: auto; 
+    /* または `height: 100%; object-fit: cover;` で均一な高さにする */
+    display: block;
+}
+
+/* 4. レスポンシブ対応 (メディアクエリ) */
+
+/* タブレット (例: 768px未満) - 1列あたり3つのタイル */
+@media (max-width: 992px) {
+    .image-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* スマートフォン (例: 576px未満) - 1列あたり2つのタイル */
+@media (max-width: 576px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 最小のスマートフォン (例: 400px未満) - 1列あたり1つのタイル */
+@media (max-width: 400px) {
+    .image-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
