@@ -1,0 +1,36 @@
+.centering_header{width:100%; margin: 0 auto; background-color:#692b2b;}
+.header{width:1000px; height: 150px;margin: 0 auto; background-color:#692b2b;}
+.header div{float:left;margin: 0 auto;}
+.header h1{width:168px; height: 150px;padding: 9px 0;}
+.header p{margin: 60px 30px;font-size:30px;font-family:"游明朝"; color:#fff;}
+
+
+.centring_mainspace{width:100%;  background-color:#2c2522;}
+
+
+.introduce{width: 1000px; height:825px;margin: 0 auto;padding: 47px 0 120px 0;}
+
+.kimetu_chara{width: 300px; height:387px;
+    background-color:#2c2522; float:left;}
+    .name{width: 300px;margin: 0 auto; padding: 18px 88px 10px 88px;font-size: 24px;font-family:"游明朝";color:#ffcc33;}
+    .cv{text-align: center;font-size: 14px;font-family:"游明朝";color:#fff;}
+
+    .c1,.c2{margin: 0 50px 0 0;}
+    .c4,.c5{margin: 59px 50px 0 0;}
+    .c6{margin-top: 59px;}
+
+  .kimetu_chara img:hover{opacity: 0.6;transition: 1.0s ;}
+
+  
+  
+.kimetu_picture{width: 1000px; height:720px;margin: 0 auto;padding: 0 0 100px 0;}
+.kimetu_picture .k01,.k02,.k03,.k04{width: 250px; height:350px;float:left; padding-bottom: 20px;}
+.kimetu_picture .k05,.k06,.k07,.k08{width: 250px; height:350px;float:left;}
+
+
+
+
+.centering_footer{width:100%; background-color:#e5e5e5;}
+.footer{width:1000px; height: 100px;margin: 0 auto; background-color: #e5e5e5;}
+.footer h6{ margin: 0 auto;text-align: right;font-size: 14px;color: #666;}
+.footer .caution{padding: 30px 0 10px 0;}
