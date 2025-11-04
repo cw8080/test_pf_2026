@@ -1,0 +1,654 @@
+
+body{
+    font-family: '游明朝';
+
+}
+
+
+
+.lp_consulting_01-06{
+
+    display: grid;
+    grid-template-rows:repeat(6,auto);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section_01 img{
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+.section_02{
+    overflow: hidden;
+
+
+}
+.inner_section_02{
+    max-width: 1000px;
+    margin: 0 auto;
+
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px 35px;
+
+
+    list-style: none;    
+}
+.inner_section_02 .box{
+    width: 310px;
+    height:202px;
+
+
+    box-shadow: -5px -5px 5px #eaeaea,
+        5px 5px 5px  #eaeaea;
+
+
+}
+
+
+.inner_section_02 .title_02{
+    min-width: 970px;
+    height: auto;
+
+
+    background-image: url(../images/title_3merit.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    padding-left: 30px;
+
+    color: #fff;
+
+
+}
+.title_02 p{
+    text-align: center;
+    padding: 17px 0 28px 30px;
+
+    font-size: 25.73px;
+
+    font-family: "游明朝";
+}
+.title_02 p span{
+    background:linear-gradient(to right,#e5c773,#fff 30%,#e5c773);
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+
+}
+.ctl_fnt-siz{
+    font-size: 36px;
+    padding-left: 30px;
+}
+
+
+.container_02{
+    list-style: none;
+    text-align: center;
+
+    padding: 0 20px;
+}
+.cnte_img02{
+    padding-top: 23px; 
+}
+.cnte_title02{
+    padding: 20px 0 18px 0;
+    font-size: 18px;
+    color:#014478;
+}
+.cnte_desc02{
+    padding-bottom: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "ＭＳ Ｐゴシック";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_03{
+    overflow: hidden;
+
+
+    background-color: #f0f0f0;
+
+
+}
+.inner_section_03{
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:0 35px;
+
+
+
+}
+
+.container_left{
+    width: 654px;
+    height: 260px;
+
+    background-color: #fff;
+    list-style: none;
+}
+.container_left .inner_contaner{
+    display: grid;
+    grid-template:repeat(3,auto) / repeat(3,auto);
+    grid-auto-flow:column;
+}
+.inner_contaner li{
+    max-width: 327px;
+    height: 40px;
+
+    list-style: none;
+    font-weight: bold;
+
+    font-family: "ＭＳ Ｐゴシック";
+}
+.inner_contaner li img{
+    float:left;
+    padding: 9px 19px 9px 55px;
+
+    font-size: 15px;
+}
+.inner_contaner p{
+    padding: 12px 0;
+    font-size: 15px;
+}
+.inner_contaner .ctl_font01{
+    font-size: 13px;
+}
+
+.main-title_left{
+    max-width: 654px;
+
+    padding: 39px 0 21px 0;
+    text-align: center;
+
+
+    font-size: 24px;
+
+
+    background-color: #f0f0f0;
+
+}
+.sub-title_left{
+    max-width: 654px; 
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+
+    background:linear-gradient(to right,#e5c773,#fff,#e5c773);
+}
+.container_left .caution1{
+
+    padding-top: 10px;
+    background-color: #f0f0f0;
+    font-size: 11px;
+    color: #666;
+}
+
+
+
+
+
+.container_right{
+    width: 310px;
+
+
+    list-style: none;
+
+
+    line-height: 5px;
+
+    padding-top: 23px;
+}
+
+.container_right li{
+    width: 310px;
+
+
+    background-color: #fff;
+
+    padding: 9px 0;
+
+    font-family: "ＭＳ Ｐゴシック";
+
+
+
+}
+.container_right li img{
+    float:left;
+
+
+    padding: 0 15px 0 70px;
+
+    position: relative;
+    bottom: 2px;
+
+}
+.container_right li p{
+
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+
+.container_right .ctl_padi{
+    padding-bottom: 20px;
+}
+
+
+.container_right .title_right p{
+
+    background-color: #f0f0f0;
+
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    font-weight: normal;
+    line-height:23px;
+    font-family: "游明朝";
+
+}
+
+.container_right .title_right .ctl_fnt{
+    padding-bottom: 20px;
+}
+
+
+
+
+.container_right .caution2{
+    background-color: #f0f0f0;
+
+    padding-top:10px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 11px;
+    font-family: "游明朝";
+
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_04{
+    overflow: hidden;
+
+
+}
+.inner_section_04{
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:0 33px; 
+
+
+    list-style: none;
+}
+.inner_section_04 li{
+    width: 310px;
+    height: 100px;
+
+
+
+    text-align: center;
+    line-height: 10px;
+
+
+}
+
+
+
+.inner_section_04 .title_04{
+    width: 1000px;
+    height: auto;
+    font-size: 24px;
+    padding: 39px 0 21px 0;
+}
+.title_04 p{
+    padding: 10px 0;
+}
+
+
+.container_04{
+    background-image: url(../images/cost_bg.png);
+}
+
+.ctgr{
+    width: 250px;
+
+
+    background-color: darkcyan;
+
+    position: relative;
+    bottom: 80px;
+    left:30px;
+
+    font-size: 18px;
+
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius: 15px;
+}
+.blue1{
+    background-color: #3dbcdc;
+}
+.green1{
+    background-color: #1d978d;
+    font-size: 15px;
+}
+.orenge1{
+    background-color: #fb9725;
+}
+
+.ctgr p{
+    color:#fff;
+    padding: 12px 0;
+}
+.container_04 .ctl_posi{
+    position: relative;
+    bottom: 50px;
+}
+.ctgr_date{
+    width: 308px;
+    height: 78px;
+
+    font-size: 14px;
+    font-weight: bold; 
+    position: relative;
+    top:20px;
+
+    border-radius: 5px;
+
+}
+.ctgr_date span{
+    font-size: 30px;
+}
+
+.blue2{
+    border:#3dbcdc 1px solid; 
+
+}
+.container_04 .blue2 p{
+    padding-top: 40px;
+}
+.green2{
+    border:#1d978d 1px solid; 
+}
+.orenge2{
+    border:#fb9725 1px solid; 
+}
+.container_04 .orenge2 p{
+    padding-top: 40px;
+}
+.ctgr_date p{
+    padding: 30px;
+}
+
+
+.inner_section_04 .btn_red-square{
+    width: 500px;
+    height: 50px;
+
+    margin: 0 auto;
+    background-color:#ba2532;
+    color:#fff;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    font-size: 16px;
+}
+.btn_red-square p{
+    padding-top: 19px;
+    padding-left: 100px;
+}
+.btn_red-square p span{
+    padding-left: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_05{
+    overflow: hidden;
+
+
+
+    background-image: url(../images/bottom_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner_section_05{
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    gap:0 20px;
+
+}
+.inner_section_05 li{
+    width: 176px;
+    height: 132px;
+
+    text-align: center;
+
+    background-color: #fff;
+
+
+
+}
+
+.inner_section_05 .ctl_mgn{
+    margin-left: 20px;
+}
+
+.inner_section_05 .title_05{
+    width: 1000px;
+    height: auto;
+    padding: 21px 0 19px 0;
+    font-size: 24px;
+    background-color:transparent;
+}
+
+.inner_section_05 .number{
+    width: 33px;
+    height:23px;
+    padding-top: 10px;
+    float:left;
+    color:#fff;
+    background-color:#e04252;
+}
+.inner_section_05 .ctgr2{
+    width: 128px;
+    height:23px;
+    padding: 10px 0 0 15px;
+    float:left;
+    background-color:#fff;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section_06{
+
+
+    background-image: url(../images/bottom_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+
+}
+.inner_section_06{
+    max-width: 1000px;
+
+    margin: 0 auto;
+    padding-bottom: 44px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:0 56px; 
+
+    list-style: none;
+
+}
+
+
+
+.inner_section_06 .box06{
+    width: 472px;
+    height: 210px;
+
+
+    box-shadow: 5px 5px 5px 1px #d4eafb;  
+
+    background-color:#fefeff;
+
+}
+.box06 ul{
+    list-style: none;
+}
+.box06 img{
+    float:left;
+    padding: 10px 29px 10px 50px;
+}
+.dr_name{
+
+    font-size: 20px;
+    color:#00559f;
+    padding: 29px 0 28px 0;
+}
+.dr_desp{
+    height: 60px; 
+    padding-right: 35px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.box06 li{
+    text-align: left;
+}
+
+.dr_career{
+    width: 400px;
+    height: 60px;
+    padding-left: 30px;
+    list-style: none;
+    font-size: 13px;
+    color:#014478;
+    margin-top: 10px;
+}
+.dr_career span{
+    padding:0 10px 0 5px;
+}
+
+
+.section_06 .inner_section_06 .title_06{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+
+
+    padding: 50px 0 50px 0;
+    line-height:20px;
+    font-size: 18px;
+    text-align:left;
+    font-weight: bold;
+    background-color:transparent;
+}
+
