@@ -1,0 +1,380 @@
+body{
+    font-family: '游明朝';
+} 
+
+
+.web_jolly-pasta_01-05{
+    
+     
+   
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    
+   background-color: #faecd9;
+    
+    
+}
+
+
+
+
+
+.top_01{
+    
+    
+    
+    background-image: url(../images/top_img_bg01.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    padding-bottom: 50px;
+    
+   
+    
+}
+.top_01 .header{
+     width: 58%;
+     padding-bottom: 100px;
+     display: flex;
+     flex-wrap:wrap;
+   
+    list-style: none;
+     float:right;
+}
+.top_01 .top_img02{
+    width: 75%;
+   margin: 0 auto;
+}
+
+.top_01 h1 img{
+    width: 100%;
+    height:auto;
+    padding-top: 20px;
+    
+   
+   
+     
+}
+.top_01 .header .gronavi_link{
+    padding:40px 0 0 50px;
+   
+    font-size: 18px;
+    color:#fff;
+    
+}
+
+.top_01 .top_img02{
+    
+ width: 75%;
+ display: block;
+ margin: 0 auto;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.center_02{
+    
+    padding-top: 60px;
+   
+    
+}
+.center_02 .inner_frame{
+    width: 90%;
+     
+    margin: 0 auto;
+    
+     background-image: url(../images/center_img_02.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+     display: grid;
+    grid-template-rows: repeat(2, 300px);
+    gap: 40px 0;
+    
+    line-height: 30px;
+    
+    
+    
+}
+
+
+.center_02 .about01 ul{
+    width: 55%;
+    
+    list-style: none;
+    padding: 80px 0 0 100px;
+    
+    color: #c62733;
+}
+
+.center_02 .about01 li{
+  width: 80%;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+.center_02 .about02 ul{
+    width: 55%;
+    float: right;
+    list-style: none;
+    padding: 40px 0 0 0;
+    
+    color: #c62733;
+}
+.center_02 .about02 li{
+  width: 80%;
+    padding-top: 20px;
+    padding-left: 10%;
+}
+
+.title{
+    
+    font-size: 30px;
+    padding-top: 20px;
+}
+.description{
+     font-size: 16px;
+    padding-top: 20px;
+}
+.message{
+     font-size: 24px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom_pasta_03{
+   
+    padding: 25px 0 25px 0;
+    
+}
+.menu{
+   
+    margin: 0 auto;
+   padding: 20px 5% 0 0;
+    
+}
+
+
+.bottom_pasta_03 .inner_frame{
+   max-width:1150px;
+   
+    margin: 0 auto;
+    
+  
+}
+.tag_pasta{
+   
+    display: block;
+    
+    padding:0 0 20px 20px;
+ 
+}
+
+.bottom_pasta_03 .inner_frame ul{
+   margin: 0 auto;
+   float: left; 
+   margin: 0 22px;
+   padding-bottom: 35px;
+}
+
+.bottom_pasta_03 .inner_frame li{
+    
+    list-style: none;
+    padding: 0 10px;
+    
+    line-height: 30px;
+    
+}
+.bottom_pasta_03 .inner_frame .back_ground{
+    width: 100%;
+   
+    
+    
+    background-image:url(../images/bg_pink.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+    
+    padding-bottom: 25px;
+}
+
+
+.bottom_pasta_03 .product{
+     
+   
+  padding-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom_piza_04{
+  
+    padding: 25px 0 25px 0;
+    
+}
+.menu{
+   width: 255px;
+    display: block;
+    
+    padding-bottom: 20px;
+    
+}
+.tag_piza{
+    display: block;
+    
+    padding:0 0 20px 20px;
+   
+}
+
+.bottom_piza_04 .inner_frame{
+   max-width:1150px;
+    
+    margin: 0 auto;
+    
+  
+}
+
+
+.bottom_piza_04 .inner_frame ul{
+   margin: 0 auto;
+   float: left; 
+   margin:  22px;
+}
+
+.bottom_piza_04 .inner_frame li{
+    
+    list-style: none;
+    padding: 0 10px;
+    
+    line-height: 30px;
+    
+}
+.bottom_piza_04 .inner_frame .back_ground{
+    width: 100%;
+    height: auto;
+    
+    
+    background-image:url(../images/bg_green.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+   
+    padding-bottom: 25px;
+}
+
+
+.bottom_piza_04 .product{
+   
+    padding-top: 10px;
+   
+}
+
+
+
+
+
+
+
+
+
+.footer_05{
+ 
+  background-color: #ce9865;
+    
+}
+
+
+.footer_05 .inner_frame{
+    width: 60%;
+    height: 105px;
+    margin: 0 auto;
+    
+   
+   
+    
+}
+
+.footer_05 ul{
+    width:60%;
+    margin: 0 auto;
+    
+    padding:25px 10% 15px 80px;
+    
+    list-style: none;
+     
+    
+     display: flex;
+    
+    
+}
+.footer_05 li{
+    
+   margin:0 auto;
+    font-size: 14px;
+    color:#fff;
+    
+   
+    
+}
+.footer_05 p{
+   
+    text-align: center;
+    
+    font-size: 12px;
+    color:#f4d0ad;
+  
+   
+}
+
+
+
+
+
+a{
+   text-decoration: none;
+   color:#000;
+}
+a:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+ 
+}

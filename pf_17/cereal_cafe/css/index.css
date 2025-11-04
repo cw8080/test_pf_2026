@@ -1,0 +1,673 @@
+
+.cereal_cafe_01-06{
+
+    display: grid;
+    grid-template-rows:repeat(6,auto);
+
+}
+
+
+.header_01{
+
+    height:117px;
+
+
+
+    border-bottom: 2px #1d4c8b solid;
+    background-color: #f5d1c9;
+
+    position: fixed;
+    top:0;
+    right: 0;
+    left:0;
+
+    z-index: 1;
+}
+.inner_header{
+    max-width: 1440px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+
+
+
+    list-style: none;
+}
+.inner_header li a{
+    text-decoration: none;
+    color:#1d4c8b;
+}
+.inner_header li{
+
+    padding:50px;
+    font-size: 20px;
+    
+    font-weight: bold;
+    font-family: "ＭＳ Ｐゴシック";
+    
+   
+}
+.inner_header .logo{
+    margin-right: 175px;
+    padding:23px 0 28px 0;
+}
+.inner_header .cart{
+
+    padding: 30px 0;
+    padding-left:250px;
+}
+
+
+.inner_header .logo a:hover{
+    opacity: 0.5;
+    transition: 0.5s
+}
+.inner_header .cart a:hover{
+    opacity: 0.5;
+    transition: 0.5s
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu_02{
+    height: auto;
+    background-color: #f5d1c9;
+    position:relative;
+    top:117px;
+    z-index: 0;
+}
+.menu_top{
+    max-width: 1440px;
+    height:850px;
+
+    margin: 0 auto; 
+
+
+    position: relative;
+    top:117px;
+
+
+}
+.menu_top .title_02-01{
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+
+
+    text-align: center;
+
+
+}
+.menu_top .title_msg_02{
+    font-size: 90px;
+    color:#1d4c8b;
+    font-weight: bold;
+    font-family: "ＭＳ Ｐゴシック";
+
+}
+
+.menu_top .title_msg_02 p{
+    padding-bottom: 65px;
+}
+
+.menu_top .sub-title{
+    padding: 11px 0 24px 0;
+
+}
+
+
+
+.menu_top .center_plate{
+    max-width:550px;
+    display: block;
+    margin: 0 auto;
+
+
+
+}
+
+
+.menu_bottom{
+
+    background-color:#fff8ee;
+
+}
+
+.inner_menu_bottom{
+    max-width: 1440px;
+    height: 1248px;
+    margin: 0 auto; 
+
+    background-image: url(../images/main_bg_dot.png);
+
+    background-size: cover;
+
+
+
+
+}
+
+.inner_menu_bottom .title_02-02{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "ＭＳ Ｐゴシック";
+}
+
+.inner_menu_bottom .disp_02-02{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "ＭＳ Ｐゴシック";
+}
+.inner_menu_bottom .sub-title_02-02{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "ＭＳ Ｐゴシック";
+}
+
+
+
+
+.inner_frame_menu{
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color:#fff8ee;
+    border:#1d4c8b 3px solid;
+    position: relative;
+    top:369px;
+
+    font-family: "ＭＳ Ｐゴシック";
+    color:#1d4c8b;
+    text-align: center;
+    list-style: none;
+}
+.inner_frame_menu .title_02-02{
+    font-size: 60px;
+    padding: 77px 0 40px 0;
+    font-weight: bold;
+
+
+}
+.inner_frame_menu .disp_02-02{
+
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 64px;
+
+}
+.inner_frame_menu .sub-title_02-02{
+    max-width: 800px;
+
+    font-size: 24px;
+    margin:0 auto;
+    padding: 30px 0;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f5d1c9;
+}
+
+.container_02-02{
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+
+
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:0 200px;
+}
+.container_02-02 li{
+    width: 300px;
+    list-style: none;
+    text-align: left;
+    padding-top:10px;
+    font-size: 16px;
+    color:#1d4c8b;
+}
+.container_02-02 li span{
+    float:right;
+}
+.container_02-02 .menu_genre{
+    font-size: 20px;
+    padding: 40px 0 33px 0;
+    font-weight: bold;
+    color:#1d4c8b;
+}
+
+
+.btn_decision{
+    width: 240px;
+    padding: 12px 0;
+    margin: 0 auto;
+
+    background-color:#1d4c8b;
+    border-radius: 45px;
+    
+}
+
+.li_btn a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.li_btn{
+    margin:20px 0 80px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.set-menu_03{
+    overflow: hidden;
+
+    background-color:#a8baca;
+    border: 2px #1d4c8b solid;
+
+　　font-family: "ＭＳ Ｐゴシック";
+
+}
+.set-menu_03 .inner_set-menu{
+    max-width: 1440px;
+    overflow:hidden;
+    margin: 0 auto;
+
+    text-align: center;
+
+
+    position: relative;
+    top:88px;
+
+    list-style: none;
+
+    padding-bottom: 90px;
+}
+
+
+.inner_set-menu .title_03-01{
+    color:#1d4c8b;
+    font-size: 60px; 
+    font-weight: bold;
+    padding: 88px 0 40px 0;
+}
+.inner_set-menu .sub-title_03-01{
+    color: #1d4c8b;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+.inner_set-menu .container-3_03-01{
+
+    max-width: 1000px;
+    overflow:hidden;
+
+    margin: 0 auto;
+
+    background-color:#a8baca;
+    display: flex;
+    flex-wrap: wrap;
+    gap:0 50px;
+
+    list-style: none;
+    padding-bottom: 80px;
+
+    color:#1d4c8b;
+
+}
+
+
+
+.inner_set-menu .container-3_03-01 .box{
+    width: 290px;
+    height: 327px;
+
+    background-color: #f5d1c9;
+    border: 2px #1d4c8b solid;
+
+
+    list-style:none;
+}
+
+.container-3_03-01 .box ul{
+    list-style: none;
+}
+
+.container-3_03-01 .box .set_and_place{
+    font-size: 30px;
+    padding: 50px 0 30px 0;
+    font-weight: bold;
+}
+.container-3_03-01 .box .set-menu p{
+    font-size: 16px;
+    padding-bottom: 12px;
+    
+}
+
+
+
+
+
+
+.container-3_03-01 .box .btn_select{
+    width: 230px;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-radius: 45px;
+    background-color: #1d4c8b;
+    color: #fff;
+}
+
+.container-3_03-01 .box li a{
+    text-decoration: none;
+}
+
+
+.container-3_03-01 .box .btn_slct01{
+
+    margin-top: 80px;
+}
+
+.container-3_03-01 .box .btn_slct02{
+
+    margin-top: 50px;
+}
+.container-3_03-01 .box .btn_slct03{
+
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-us_04{
+
+
+    background-color: #fff8ee;
+
+
+}
+.about-us_04 .inner_about-us{
+    width:100%;
+
+    overflow: hidden;
+    margin: 0 auto;
+    color:#1d4c8b;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-us_04 .inner_about-us .li_about{
+    width: 100%;
+    overflow: hidden;
+
+
+
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+.about-us_04 .botttom_img{
+    width:50%;
+    height:auto;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.btm-img01{
+    background-image: url(../images/bottom-img01.jpg);
+
+
+}
+.btm-img02{
+    background-image: url(../images/bottom-img02.jpg);
+}
+
+
+
+
+
+.about-us_04 .desc_about{
+    width: 50%;
+    height: 720px;
+
+    margin: 0 auto;
+
+    list-style: none;
+
+}
+
+
+.about-us_04 .about_title01{
+    width: 60%; 
+    margin: 0 auto;
+    padding-top: 183px;
+    padding-bottom: 45px;
+    font-size: 48px;
+    font-weight: bold;
+    font-style:oblique;
+}
+.about-us_04 .desp_history{
+    width: 60%;
+    margin: 0 auto;
+    line-height: 30px;
+
+}
+.about-us_04 .desc_about .li_voice{
+    width: 450px;
+    height: 250px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+.about-us_04 .ctl_padi{
+
+    padding-bottom: 38px;
+
+}
+.about-us_04 .li_voice ul{
+    list-style: none;
+}
+
+.about-us_04 .li_voice ul li{
+    padding-top: 40px;
+
+}
+
+.about-us_04 .about_title02{
+    width: 450px; 
+    margin: 0 auto;
+    padding-top: 160px;
+    padding-bottom: 30px;
+    font-size: 48px;
+    font-weight: bold;
+    font-style:oblique;
+}
+.about-us_04 .ctl_mgn{
+    margin-top: 10px;
+
+}
+.about-us_04 .desc_about .li_img_voice{
+
+    float:left;
+    list-style: none;
+
+    padding:30px 25px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact_05{
+
+    background-color: #fff8ee; 
+    color:#1d4c8b;
+
+    font-family: "メイリオ";
+    font-size: 18px;
+}
+.contact01{
+    max-width: 1300px;
+    margin:  0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap:0 160px;
+    list-style: none;
+
+    padding-top: 60px;
+
+}
+.contact01 .contact_category{
+    font-size: 18px;
+    color:#1d4c8b;
+}
+.contact01 .contact_ctgr_data{
+    width: 200px;
+    font-size: 14px;
+    padding-top: 35px;
+    color:#1d4c8b;
+}
+
+
+
+.contact02{
+    max-width: 1300px;
+    margin:  0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 160px;
+
+    padding-top: 60px;
+    text-align: center;
+    list-style: none;
+}
+
+.contact02 .inpt_text{
+    width: 311px;
+    height: 35px;
+    font-size: 14px;
+    text-indent: 20px;
+    color:#1d4c8b;
+    border:2px #1d4c8b solid;
+    margin: 30px 40px 111px 60px;
+    background-color: #fff8ee;
+}
+
+.contact_05 .contact02 .btn_send{
+
+    display: block;
+    float:right;
+    margin-top:30px;
+    font-size: 14px;
+    padding: 12px 50px;
+    border-radius: 25px;
+    background-color: #1d4c8b;
+    color: #fff;
+    cursor:pointer;
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_06{
+    padding: 30px 0;
+    background-color:#a8baca;
+    text-align: center;
+    font-size: 15px;
+    font-family: "メイリオ";
+    color:#1d4c8b;
+}
+
+
+
+
+
+
+
