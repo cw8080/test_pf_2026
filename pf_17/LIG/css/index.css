@@ -1,0 +1,285 @@
+
+
+.header{
+    width: 100%;
+    height:auto;
+    
+
+}
+
+.sns_icon{
+    max-width: 1150px;
+   float:right;
+   padding-right: 10%;
+}
+.sns_icon img{
+    
+    padding: 24px 12px;
+}
+.sns_icon img:hover{
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+
+.header h1{
+    width: 210px;
+    height:44px;
+    margin: 0 auto;
+    padding-top: 81px;
+}
+
+.header ul{
+    width:650px;
+    padding: 49px 0 41px 0;
+    margin: 0 auto;
+}
+.header li{
+    
+    padding:0 20px;
+    list-style: none;
+    float:left;
+    size:15px;
+    color:#1e0606;
+    font-family:"小塚ゴシック Pr6N";
+    font-weight: bold;
+}
+.header li a{
+    text-decoration: none;
+    color:#000;
+}
+
+
+.background{
+   
+    height: 1169px;
+    background-color:#f3f3f3;
+   
+}
+
+
+
+
+.center_space{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.topimage{    
+    padding-bottom: 22px;    
+}
+.topimage:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+
+.center_left_space{
+    width: 650px;
+    height:auto;
+
+    float:left;
+}
+
+.left_link_3{
+    width: 650px;
+    height:200px;
+    margin-top: 28px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.left_link_3:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+
+}
+
+.left_link_3 img{
+    float: left;
+}
+
+.data{
+    width: 340px;
+    height:200px;
+    float: left;
+    background-color: #fff;
+}
+.d_top{
+    width: 350px;
+    height: 50px;
+    padding: 26px 0 0 32px;
+}
+.d_top P{
+    font-size: 16px;
+    color:#1e0606;
+    font-family: "Myriad Pro";   
+}
+.d_top img{
+    padding-right: 5px;
+}
+
+.d_botton{
+    float: right;
+    padding: 8px 22px;
+    margin: 20px 0 22px 0;
+    background-color: #bfa34c;
+    font-size: 14px;
+    color:#fff;
+    font-family: "Myriad Pro";
+}
+.description{
+    padding: 0 0 30px 32px;
+    width: 300px;
+    height: 100px;
+
+    font-size: 22px;
+    color:#1e0606;
+    font-family:"小塚ゴシック Pr6N";
+}
+
+
+
+
+.center_right_space{
+    width: 300px;   
+    float:right;
+}
+
+.center_right_space img{
+    padding:28px 0;
+}
+.center_right_space img:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+
+}
+
+
+
+.title{
+    font-size: 16px;
+    padding: 18px 100px;
+    background-color:#bfa34c;
+    list-style: none;
+    color:#fff;
+}
+.category{
+   width: 240px;
+   height: 17px;
+    padding: 18px 16px 18px 27px;
+    list-style: none;
+    font-size: 15px;
+    
+    
+    font-family:"小塚ゴシック Pr6N";
+   
+    
+    float:left;
+}
+.category:hover{
+   color:#bfa34c;
+    opacity: 1;
+    transition: 0.6s;
+}
+
+
+.arrow{
+    
+    
+    background-color: #fff;
+    text-decoration: none;
+    color:#000;
+    float:right;
+    border-bottom: 1px #f3f3f3 solid;
+}
+
+
+.arrow:after{
+    content: "＞";
+    float:right;
+    color:#CCC;
+    position: relative;
+   
+    top:15px;
+    right: 20px;
+    
+}
+.arrow:hover{
+    color:#bfa34c;
+    opacity: 1;
+    transition: 0.6s;
+}
+
+.footer{
+  min-width: 700px;  
+  
+}
+
+
+.footer1{
+    max-width: 500px;
+    height: 28px;
+    margin: 0 auto;
+    padding:42px 0 40px 0;
+   
+
+}
+.footer1 img{
+    width: 131px;
+    height: 28px;
+    float:left;
+    
+  
+
+}
+.info{
+    float:left;
+    
+
+}
+.info p{
+    padding:0 0 9px 53px;
+    font-size: 12px;
+    color: #202020;
+    font-family:"小塚ゴシック Pr6N";
+}
+
+
+
+.footer2_bordertop{
+    width: 100%;
+    border-top: 1px #f3f3f3 solid;
+   
+}
+.footer2{
+    max-width:550px;
+   
+
+    padding:30px 0 42px 0;
+    margin: 0 auto;
+  
+    
+}
+.footer2 a{
+    
+    float:left;
+    padding:0 25px;
+
+
+    font-size: 13px;
+    color: #202020;
+    font-family:"小塚ゴシック Pr6N";
+    text-decoration: none;
+   
+}
+
+.footer2 div{
+    width: 550px;
+    text-align: center;
+
+    padding: 26px 0 42px 20px;
+    font-size: 13px;
+    color: #1e0606;
+    font-family:"Myriad Pro";
+}
