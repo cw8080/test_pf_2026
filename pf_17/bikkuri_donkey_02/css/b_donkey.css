@@ -1,0 +1,267 @@
+
+
+/*-----中央寄せのための準備　等-------------------------------------*/
+body{width: 100%;}
+
+.outer_frame01{width: 100%; height: 117px; background-color:#f7f1e5;}
+.outer_frame02{width: 100%; height: 60px; background-color:#492e29;}
+.outer_frame03{width: 100%; height:520px; background-color:#f7f1e5;}
+.outer_frame04{width: 100%; height:150px; background-color:#f7f1e5;}
+
+.outer_frame05{width: 100%; height:380px; background-color:#f7f1e5;}
+.outer_frame06{width: 100%; height:150px; background-color:#f7f1e5;}
+/*===================================================================*/
+
+/*------ ロゴ部分---------------------------------------------*/
+.logo_area{
+    width: 1000px;
+    height: 117px;
+    background-color:#f7f1e5;
+    margin:0 auto; 
+}
+.logo_area h1{   
+    padding: 30px 0px 30px 0;  
+}
+/*===================================================================*/
+
+/*------メニューのバー　---------------------------------*/
+.menu_bar{
+    width: 1000px;
+    height: 60px;
+background-color:#492e29;
+ margin:0 auto;}
+.menu_bar p{
+    font-size: 20px;
+    color:#fff;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+/*===================================================================*/
+
+/*--------商品の画像・詳細------------------------------------------*/
+.menu_list{
+    width: 1000px;
+    height:470px; 
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.menu_list img{
+   width: 100%;
+    height:100%; 
+}
+
+/*----------------------------------------------------*/
+
+.inner_frame_fm01 , .inner_frame_fm02{
+    float: left;   
+}
+
+/*----------レギュラーバーグディッシュ　の画像・詳細-----------------------*/
+
+.inner_frame_fm01{
+    width: 450px;
+    height: 470px;
+    margin-right: 100px;
+    background-color:#492e29;
+    border: 2px solid #492e29;
+    box-sizing: border-box;
+}
+
+.inner_frame_fm01 img{
+    width: 446px;
+    height: 330px;}
+
+.inner_frame_fm01 p{
+    margin: 30px 0 20px 40px;
+    font-weight:bold;
+    color:#fff;
+}
+
+.inner_frame_fm01 ul{
+    font-size: 16px;
+    font-weight:bold;
+    margin-left:40px;
+}
+
+
+.inner_frame_fm01 li{
+        float: left;
+	width: 100px;
+
+	margin-right: 20px;
+	padding:10px 0;
+	background: #f7f1e5;
+	
+        
+	text-align: center;
+	color: #492e29;
+	list-style: none;
+    
+}
+
+/*------おろしそバーグディッシュ　の画像・詳細--------------------------*/
+.inner_frame_fm02{
+    width: 450px;
+    height: 470px;
+ 
+    background-color:#492e29;
+border: 2px solid #492e29;
+    box-sizing: border-box;
+}
+
+.inner_frame_fm02 img{
+    width: 446px;
+    height: 330px;}
+
+.inner_frame_fm02 p{
+    margin: 30px 0 20px 40px;
+    font-weight:bold;
+    color:#fff;
+}
+
+.inner_frame_fm02 ul{
+    font-size: 16px;
+    font-weight:bold;
+    margin-left:40px;
+}
+
+
+.inner_frame_fm02 li{
+        float: left;
+	width: 100px;
+
+	margin-right: 20px;
+	padding:10px 0;
+	background: #f7f1e5;
+	
+        
+	text-align: center;
+	color: #492e29;
+	list-style: none;
+    
+}
+
+/*===================================================================*/
+
+/*-----＊　注意書き-------------------------------------------------*/
+.caution{
+    width: 1000px;
+    height: 40px;
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size:16px;
+    color:#492e29;
+}
+
+/*===========デザート==========================================*/
+
+.menu_list_2{
+    width: 1000px;
+    height:380px; 
+    margin: 0 auto;
+   
+}
+.menu_list_2 img{
+   width: 100%;
+    height:100%; 
+}
+
+/*----------------------------------------------------*/
+
+.inner_frame_fm03 , .inner_frame_fm04 ,.inner_frame_fm05{
+    float: left;   
+}
+
+/*----------ストロベリーソフトの画像・詳細-----------------------*/
+
+.inner_frame_fm03{
+    width: 300px;
+    height: 380px;
+    margin-right: 50px;
+    background-color:#492e29;
+    border: 2px solid #492e29;
+    box-sizing: border-box;
+}
+
+.inner_frame_fm03 img{
+    width: 99.9%;
+    height: 220px;}
+
+.inner_frame_fm03 p{
+    margin: 30px 0 20px 40px;
+    font-weight:bold;
+    color:#fff;
+}
+
+
+
+/*----------牧のミニソフトの画像・詳細-----------------------*/
+
+.inner_frame_fm04{
+    width: 300px;
+    height: 380px;
+    margin-right: 50px;
+    background-color:#492e29;
+    border: 2px solid #492e29;
+    box-sizing: border-box;
+}
+
+.inner_frame_fm04 img{
+    width: 99.9%;
+    height: 220px;}
+
+.inner_frame_fm04 p{
+    margin: 30px 0 20px 40px;
+    font-weight:bold;
+    color:#fff;
+}
+
+
+
+/*----------ふんわりシフォンの画像・詳細-----------------------*/
+
+.inner_frame_fm05{
+    width: 300px;
+    height: 380px;
+    
+    background-color:#492e29;
+    border: 2px solid #492e29;
+    box-sizing: border-box;
+}
+
+.inner_frame_fm05 img{
+    width: 99.9%;
+    height: 220px;}
+
+.inner_frame_fm05 p{
+    margin: 30px 0 20px 40px;
+    font-weight:bold;
+    color:#fff;
+}
+
+.menu_list_2 .menu_name{
+    color: #fff;
+    font-size: 18px;
+    margin: 30px 20px 25px 20px;
+    
+} 
+
+.menu_list_2 .menu_coment{
+    color: #fff;
+    font-size: 11.5px;   
+    margin: 0 20px 50px 20px;
+    line-height: 20px;
+}
+
+
+
+/*-----＊　注意書き2-------------------------------------------------*/
+.caution2{
+    width: 1000px;
+    height: 40px;
+    padding:40px 0 0 0;
+    margin: 0 auto;
+    font-size:16px;
+    color:#492e29;
+}
