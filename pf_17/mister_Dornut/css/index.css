@@ -1,0 +1,461 @@
+.html_file__mister_dornut{
+ 
+    display: grid;
+    grid-template-column: repeat(6, 100%);
+    
+   
+    
+    
+}
+
+
+
+
+
+
+.header_01{
+   width: 100%;
+    height: 100px;
+    
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:10% 20%;
+   
+    gap:0 20%;
+     background-color: #b60005;
+    
+    
+}
+.logo01{padding-left: 50%;}
+.logo{
+   
+   padding: 10px 0 0 0; 
+   
+   display: block;
+   margin: 0 auto;
+   
+   
+       
+}
+.logo:hover{
+    opacity: 0.3;
+   transition: 0.5s;
+    
+    
+}
+
+
+.logo02{padding-left: 40%;}
+
+
+.misdo_pokemon{
+   width: auto; 
+   padding: 20px 0 00 ;
+    
+   display: block;
+   margin: 0 auto;
+}
+.misdo_pokemon:hover{
+    opacity: 0.3;
+   transition: 0.5s;
+    
+    
+}
+
+
+
+
+.topimage_02{
+    background-color: #f9e198;
+    
+    
+  
+}
+.topimage_02 img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.center_list_03{
+    
+    height: auto;
+    
+    padding:50px 0 0 0;
+    background-color: #f9e198;
+    
+   
+}
+.menu01{
+    width: 75%;
+    
+    margin: 0 auto;
+    text-align: center;
+    
+    padding: 15px 0;
+    font-size: 30px;
+    color:#fff;
+    border-radius: 60px;
+    
+    background-color:#b60005;
+}
+
+
+
+
+
+
+.list_top{
+    width: 70%;
+    height: 20%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 44%);
+    grid-template-rows: repeat(1, 80%);
+    gap:0 50px;
+    
+    padding: 40px 0 40px 50px ;
+}
+
+.list_top .product{
+    height: 100%;
+    
+    padding: 30px 20px;
+    
+    background-size: 45%;
+    background-repeat:no-repeat;  
+    background-position-x: 98%;
+    background-position-y: 55px;
+    
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.prd_num{
+    width: 30%;
+    border-radius: 25px;
+   
+   font-size: 16px;
+   color:#fff;
+   padding: 5px 0;
+   text-align: center;
+   background-color:#652b26 ;
+}
+
+
+.prd_name{
+    width: 55%;
+    padding: 20px 0 10px 0;
+    font-weight: bold;
+    font-size:20px;
+    color:#652b26 ;
+}
+
+
+
+
+.prd_description{
+    width: 50%;
+     height: 40%;
+   
+     padding: 20px 0 0 0;
+    color:#652b26 ;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+
+
+
+
+
+
+.top .prd_price{
+     width: 40%;
+    padding: 0 0 20px 0;
+    
+    font-size:16px;
+    color:#652b26 ;
+}
+.top .prd_description{
+    line-height: 30px; 
+}
+
+.line1{
+    width: 50%;
+    height:10%;
+    background-image: url("../images/line1.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.ys-39{
+    
+    background-image: url("../images/new_menu_img_01.png");
+    
+     
+   
+}
+
+.ys-40{
+    background-image: url("../images/new_menu_img_02.png");
+  
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.list_center{
+    width: 75%;
+    height: 30%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(3, 31.25%);
+    grid-template-rows: repeat(1, 100%);
+    gap:50px 35px;
+    
+    padding: 0 0 45px 0;
+    
+    
+    
+}
+
+.list_center .product{
+    background-size: 90%;
+    background-repeat:no-repeat;  
+    background-position-x: 10px;
+    background-position-y: 20px;
+    
+    
+    padding: 200px 20px 20px 20px;
+  
+    border: 3px #b60005 solid;
+    border-radius: 5px;
+}
+
+.line2{
+    width: 100%;
+    height:10%;
+    background-image: url("../images/line2.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+ .center .prd_price{
+   width: 80%;      
+}
+.center .prd_num{
+    width: 45%;
+    
+}
+.center .prd_name{
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.line2{
+    width: 90%;
+    
+}
+.center .prd_description{
+    width: 80%;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.yr-28-1{
+    background-image: url("../images/new_menu_img_03.png");
+    
+    
+}
+.yr-28-2{
+     background-image: url("../images/new_menu_img_04.png");
+    
+   
+}
+.yr-28-3{
+     background-image: url("../images/new_menu_img_05.png");
+    
+}
+
+
+
+.list_bottom{
+    width: 75%;
+    height: 450px;
+    margin: 0 auto;
+    
+    
+   padding: 45px 0 60px 0;
+   
+   
+   background-image: url("../images/set_drink.png");
+    background-size:100% ;
+    background-repeat:no-repeat;  
+  
+}
+
+
+
+.goods_04{
+    height: 300px;
+    padding: 20px 0;
+    
+  background-image: url("../images/main_img_goods.png");
+    background-size:75% ;
+    background-repeat:no-repeat;  
+    
+    background-position: center;
+  background-color: #b59057;  
+    
+    
+}
+
+
+
+.bottom-list_05{
+    height: auto;
+    padding: 40px 0 100px 0;
+    background-color: #f9e198;
+}
+.menu02{
+    width: 75%;
+    
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size:30px;
+    color:#fff;
+    border-radius: 40px;
+    background-color: #666600;
+    
+    
+    text-align: center;
+    
+}
+.list{
+    width: 75%;
+    height: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 31.25%);
+    grid-template-rows: repeat(1, 100%);
+    gap:0 35px;
+    
+    
+    padding: 30px 0px 0 0 ;
+}
+
+.list .product{
+    background-size: 70%;
+    background-repeat:no-repeat;  
+    background-position-x:60px;
+    background-position-y:10px;
+    
+    border-radius: 5px;
+    
+    border:3px #666000 solid;
+    
+    padding: 220px 20px 0 20px;
+   
+    
+}
+.pr-45{
+     background-image: url("../images/new_menu_img_06.png");
+}
+.pr-46{
+     background-image: url("../images/new_menu_img_08.png");
+}
+.pr-47{
+     background-image: url("../images/new_menu_img_07.png");
+}
+  .bottom .prd_price{
+   width: 90%;      
+}
+
+.bottom .prd_num{
+    width: 50%;
+    background-color: #666000;
+    
+}
+
+.bottom .prd_name{
+    width: 45%;
+    font-size: 16px;
+}
+
+.bottom .prd_description{
+   width: 90%;
+   line-height: 20px;
+   padding: 15px 0;
+}
+
+
+.footer_06{
+    width: 75%;
+   height: 10%;
+    margin: 0 auto;
+    
+    padding: 20px 0;
+    
+    display: grid;
+    grid-template-columns:82% 5% 5% 5% 5%;
+ 
+    
+    
+}
+
+
+
+.footer_06 img{
+    width: 30px;
+    height: auto;
+    
+}
+.footer_06 P{
+    font-size: 16px;
+    color: #666000;
+    
+    
+   
+}
+
+
+
+
+
+
+.is:hover{
+   opacity: 0.3;
+    transition: 0.5s; 
+    
+}
+
+.tw:hover{
+   opacity: 0.3;
+    transition: 0.5s; 
+    
+}
+
+.fb:hover{
+   opacity: 0.3;
+    transition: 0.5s; 
+    
+}
+
+.yt:hover{
+   opacity: 0.3;
+    transition: 0.5s; 
+    
+}
